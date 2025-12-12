@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - blocks > express > debug:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:debug:20170905'
+        path: blocks > express > debug
+    - blocks > express > finalhandler > debug:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:debug:20170905'
+        path: blocks > express > finalhandler > debug
+    - blocks > express > send > debug:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:debug:20170905'
+        path: blocks > express > send > debug
+    - blocks > express > serve-static > send > debug:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:debug:20170905'
+        path: blocks > express > serve-static > send > debug
+  'npm:mime:20170907':
+    - blocks > express > send > mime:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:mime:20170907'
+        path: blocks > express > send > mime
+    - blocks > express > serve-static > send > mime:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:mime:20170907'
+        path: blocks > express > serve-static > send > mime
+  'npm:ms:20170412':
+    - blocks > express > debug > ms:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:ms:20170412'
+        path: blocks > express > debug > ms
+    - blocks > express > send > ms:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:ms:20170412'
+        path: blocks > express > send > ms
+    - blocks > express > finalhandler > debug > ms:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:ms:20170412'
+        path: blocks > express > finalhandler > debug > ms
+    - blocks > express > send > debug > ms:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:ms:20170412'
+        path: blocks > express > send > debug > ms
+    - blocks > express > serve-static > send > debug > ms:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:ms:20170412'
+        path: blocks > express > serve-static > send > debug > ms
+    - blocks > express > serve-static > send > ms:
+        patched: '2025-12-12T06:29:48.887Z'
+        id: 'npm:ms:20170412'
+        path: blocks > express > serve-static > send > ms
